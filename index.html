@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Sederhana - Belajar HTML & CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>Catatan Belajar</h1>
+    <p>Tempat aku menulis progres belajar coding</p>
+  </header>
+
+  <nav class="site-nav">
+    <ul>
+      <li><a href="#beranda">Beranda</a></li>
+      <li><a href="#artikel">Artikel</a></li>
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="https://www.dicoding.com/users/USERNAME-KAMU/" target="_blank" rel="noopener">Profil Dicoding Saya</a></li>
+    </ul>
+  </nav>
+
+  <main class="main-content">
+
+    <article class="article">
+      <h2>Belajar Semantic HTML Itu Ternyata Seru</h2>
+      <p>
+        Waktu pertama kali belajar HTML, aku cuma pakai <code>&lt;div&gt;</code> untuk
+        semua bagian halaman. Setelah tahu ada elemen semantic seperti
+        <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>,
+        <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>, dan <code>&lt;footer&gt;</code>,
+        struktur halaman jadi jauh lebih rapi dan gampang dibaca, baik oleh manusia
+        maupun mesin seperti screen reader dan search engine.
+      </p>
+      <p>
+        Di halaman ini, tiap bagian punya elemen semantic-nya masing-masing.
+        Layoutnya juga disusun pakai <strong>flexbox</strong>, bukan <code>float</code>,
+        supaya lebih fleksibel dan gampang di-maintain.
+      </p>
+    </article>
+
+    <aside class="aside">
+      <h3>Tentang Penulis</h3>
+      <img src="profile.jpg" alt="Foto profil penulis" width="150">
+      <p>Mahasiswa D4 Manajemen Informatika yang lagi belajar front-end dari nol.</p>
+    </aside>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Catatan Belajar. Dibuat sebagai submission Dicoding.</p>
+  </footer>
+
+</body>
+</html>
